@@ -1,17 +1,9 @@
-# Statment
+Pull the docker image containing the web app docker pull automaticbytes/demo-app
 
-WEB UI AUTOMATION HANDS ON
+Run the image docker run -p 3100:3100 automaticbytes/demo-app
 
-Crear un script que se dirija a la siguiente URL :  e introduzca credenciales y valide el éxito de lo anterior.
-Deberá seguir el patrón de diseño de objetos (Page of model), utilizando selenium WebDriver con Java.
-Crear un repo público en: https://github.com/ hacer el commit y subir el código.
+check the version of chrome with the version of the chromedriver that is inside the project to avoid changing the paths.
 
-***
-
--Para Ejecutar: ir a la carpeta test y hacer click en el boton play del Feature. Inclui el chromeDriver para q no haga falta cambiar la ruta cuando alguien intente ejecutarlo.
-
-
-
-
--To run: go to the test folder and click on the Feature play button. I included the chromeDriver so that you don't have to change the path when someone tries to run it.
+use, selenium, java and cucumber.
+You can run the tests for example from the .feature files, giving it play
 
