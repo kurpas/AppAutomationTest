@@ -1,5 +1,5 @@
 @Challenge
-Feature: The user login
+Feature: Challenge
 
   @Login
   Scenario: Login Success
