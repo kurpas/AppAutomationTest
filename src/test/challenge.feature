@@ -54,7 +54,13 @@ Feature: The user login
     Then The user sees all completed products
 
   @Search
-  Scenario: Grid All Items Test
+  Scenario: Search Success
     Given The user is search page
     When The user search result for Automation
     Then The user sees the message for Automation results
+
+  @Search
+  Scenario: Search Empty
+    Given The user is search page
+    When The user presses search without entering any search criteria
+    Then The user sees the message Please provide a search word
